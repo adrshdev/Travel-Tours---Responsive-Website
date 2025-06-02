@@ -27,7 +27,7 @@ nav{
 label.logo{
   color: var(--white);
   font-size: 35px;
-  line-height: 80x;
+  line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
 }
@@ -58,4 +58,65 @@ a:hover{
 
 .checkbtn{
   font-size: 30px;
+  color: var(--white);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
 }
+
+#check{
+  display: none;
+}
+
+.headline{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: var(--white);
+  margin-top: 170px;
+}
+
+.title{
+  font-size: 150px;
+  font-weight: bolder;
+}
+
+.description{
+  font-size: 29px; 
+}
+
+.callout{
+  width: 300px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.5;
+}
+
+.callout:hover{
+  border-radius: 40px;
+  background-color: black;
+}
+
+.upanddown{
+  animation-name: scrolldown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrolldown{
+  0%,
+  100%{
+    margin-top: 80px;
+  }
+  50%{
+    margin-top: 90px ;
+  }
+} 
