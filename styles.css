@@ -178,3 +178,81 @@ a:hover{
   width: 90%;
   border-top: 1px solid rgb(137, 137, 137);
 }
+
+.destinations{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.destinations h1{
+  font-size: 35px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.destinations p{
+  margin-top: 10px;
+}
+
+.image-boxes{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-box{
+  width: 427px;
+  height: 385px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.overlap-1{
+  height: 385px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/city-9169729_1280.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: all 1s;
+}
+
+.overlap-2{
+  height: 385px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/city-9169729_1280.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: all 1s;
+}
+
+.overlap-3{
+  height: 385px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/city-9169729_1280.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: all 1s;
+}
+
+.overlap-1:hover,
+.overlap-2:hover,
+.overlap-3:hover{
+  height: 450px;
+}
+
+.overlap-text{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 300px;
+  color: var(--white);
+}
+
+.overlap-text h5{
+  font-size: xx-large;
+}
+
+.overlap-text p{
+  font-size: large;
+  
+}
