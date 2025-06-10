@@ -272,7 +272,7 @@ a:hover{
 }
 
 .welcome h1{
-  font-size: 96px;
+  font-size: 96px; 
   text-align: left;
 }
 
@@ -286,7 +286,7 @@ a:hover{
   height: 52px;
   background-color: var(--accent);
   color: white;
-  border: 0;
+  border: none;
   border-radius: 16px;
   position: relative;
   left: 200px;
@@ -296,7 +296,7 @@ a:hover{
 
 .button-2:hover{
   color: black;
-  border: 1px black solid;
+  border: 1px solid black;
   background-color: white;
 }
 
